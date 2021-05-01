@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1619875897 source:c:\users\usuario\desktop\utn\programacion 1\ejercicios\abm generico\abm_generico\abm_generico\abmcodeblock\main.c
+	"eGen.h"
+
+1619875897 c:\users\usuario\desktop\utn\programacion 1\ejercicios\abm generico\abm_generico\abm_generico\abmcodeblock\egen.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
