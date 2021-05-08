@@ -1,0 +1,81 @@
+# depslib dependency file v1.0
+1620161928 source:c:\users\usuario\desktop\utn\programacion 1\ejercicios\abm generico\abm_generico\abm_generico\abmempleados\comida.c
+	<stdio.h>
+	<stdlib.h>
+	"comida.h"
+	<string.h>
+	<ctype.h>
+
+1620432104 c:\users\usuario\desktop\utn\programacion 1\ejercicios\abm generico\abm_generico\abm_generico\abmempleados\comida.h
+
+1620452708 source:c:\users\usuario\desktop\utn\programacion 1\ejercicios\abm generico\abm_generico\abm_generico\abmempleados\almuerzo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"almuerzo.h"
+
+1620453319 c:\users\usuario\desktop\utn\programacion 1\ejercicios\abm generico\abm_generico\abm_generico\abmempleados\almuerzo.h
+	"comida.h"
+	"fecha.h"
+	"empleado.h"
+
+1620143605 c:\users\usuario\desktop\utn\programacion 1\ejercicios\abm generico\abm_generico\abm_generico\abmempleados\fecha.h
+
+1620452086 c:\users\usuario\desktop\utn\programacion 1\ejercicios\abm generico\abm_generico\abm_generico\abmempleados\empleado.h
+	"fecha.h"
+	"bibliolau.h"
+	"sectores.h"
+	"informes.h"
+	"almuerzo.h"
+	"comida.h"
+
+1620433148 c:\users\usuario\desktop\utn\programacion 1\ejercicios\abm generico\abm_generico\abm_generico\abmempleados\sectores.h
+
+1620453362 c:\users\usuario\desktop\utn\programacion 1\ejercicios\abm generico\abm_generico\abm_generico\abmempleados\informes.h
+	"empleado.h"
+
+1620151462 source:c:\users\usuario\desktop\utn\programacion 1\ejercicios\abm generico\abm_generico\abm_generico\abmempleados\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"informes.h"
+
+1620453994 source:c:\users\usuario\desktop\utn\programacion 1\ejercicios\abm generico\abm_generico\abm_generico\abmempleados\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"fecha.h"
+	"comida.h"
+	"almuerzo.h"
+	"informes.h"
+
+1620435082 source:c:\users\usuario\desktop\utn\programacion 1\ejercicios\abm generico\abm_generico\abm_generico\abmempleados\sectores.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"sectores.h"
+
+1620454008 source:c:\users\usuario\desktop\utn\programacion 1\ejercicios\abm generico\abm_generico\abm_generico\abmempleados\empleado.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"datawarehouse.h"
+	"Empleado.h"
+
+1620453862 c:\users\usuario\desktop\utn\programacion 1\ejercicios\abm generico\abm_generico\abm_generico\abmempleados\datawarehouse.h
+	"fecha.h"
+	"almuerzo.h"
+
+1620245621 c:\users\usuario\desktop\utn\programacion 1\ejercicios\abm generico\abm_generico\abm_generico\abmempleados\bibliolau.h
+
+1620245609 source:c:\users\usuario\desktop\utn\programacion 1\ejercicios\abm generico\abm_generico\abm_generico\abmempleados\bibliolau.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1620453886 source:c:\users\usuario\desktop\utn\programacion 1\ejercicios\abm generico\abm_generico\abm_generico\abmempleados\datawarehouse.c
+

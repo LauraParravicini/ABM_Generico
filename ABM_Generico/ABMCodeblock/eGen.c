@@ -1,5 +1,8 @@
 #include "eGen.h"
-
+//Agregar funcion para confirmar cambio
+//Agregar funcion de input
+//Agregar validacion de datos
+//Con buscar y reemplazar sacar Gen por nombre de estruct
 /**IMPORTANTE - SETEAR VALOR INICIAL CON EL PREFERIDO PARA COMENZAR IDs*/
 //ID AUTOINCREMENTAL
 int Gen_idIncremental = 0;
@@ -87,14 +90,11 @@ int eGen_MostrarTodos(eGen array[], int TAM) {
 				eGen_MostrarUno(array[i]);
 				//CONTADOR DE Gen
 				cantidad++;
+                rtn++;
 			}
 		}
 	}
 
-	//SI CANTIDAD == 0 - NO HUBO Gen PARA MOSTRAR (ARRAY SIN ALTAS)
-	if (cantidad > 0) {
-		rtn = 1;
-	}
 
 	return rtn;
 }
@@ -117,14 +117,9 @@ int eGen_MostrarDadosDeBaja(eGen array[], int TAM) {
 				//MUESTRO UN SOLO Gen
 				eGen_MostrarUno(array[i]);
 				//CONTADOR DE Gen
-				cantidad++;
+				rtn++;
 			}
 		}
-	}
-
-	//SI CANTIDAD == 0 - NO HUBO Gen PARA MOSTRAR (ARRAY SIN BAJAS)
-	if (cantidad > 0) {
-		rtn = 1;
 	}
 
 	return rtn;
